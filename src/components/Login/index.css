@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    min-height: 100vh;
+    background-color: #f5f5f0;
+}
+
+.login-box {
+    background: #1c1c1c;
+    border-radius: 8px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.login-form {
+    background-color: #00004d;
+    padding: 50px 40px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-caption {
+    color: #ffffff;
+    font-weight: 700;
+    font-size:25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-top:25px;
+}
+.login-input {
+    padding:14px;
+    display:block;
+    background-color: #fff;
+    border: none;
+    outline:none;
+    box-shadow: none;
+    font-size: 25px;
+    letter-spacing: 0.05em;
+    border-radius:5px;
+    display:block;
+    width:90%;
+
+}
+.login-user-container{
+    display:block;
+    margin-top:25px;
+    
+}
+.login-button{
+    border: none;
+    outline: none;
+    display:block;
+    padding:10px;
+    background: #cc00cc;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 25px;
+    display:block;
+    color:#fff;
+    width:90%;
+}
+
+.login-button{
+    opacity:0.9;
+}
+.logo{
+    width:200px;
+}
+.logo-container{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error-message{
+    color:#fff;
+}
+.blur{
+    color:red;
+}
+.forgot-password{
+    color:#fff;
+    font-size:18px;
+    font-family:"Roboto";
+    cursor:pointer;
+    text-align:center;
+    margin-top:15px;
+}
+.forgot-password:hover{
+    color:blue;
+    text-decoration:none;
+}
+.dont-have-account{
+    color:#fff;
+    font-size:18px;
+    font-family:"Roboto";
+    margin-top:30px;
+    text-align:center;
+}
+.register-here{
+    color:#cc00cc;
+    font-size:20px;
+    cursor:pointer;
+    text-decoration:none;
+}
